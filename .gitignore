@@ -1,0 +1,25 @@
+# Cursor continual-learning hook state (do not commit)
+.cursor/hooks/state/
+
+# Runtime app state JSON (fetch markers, normalize last run, etc.)
+state/*.json
+
+# Local data and outputs (large / machine-specific)
+data/
+runs/
+zRawData/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/

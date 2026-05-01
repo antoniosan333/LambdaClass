@@ -1,0 +1,25 @@
+[defaults]
+data_adapter = "yfinance"
+options_chain_source = "yfinance"
+starting_capital = 100000
+commission_per_contract = 0.65
+slippage_bps = 2
+timezone = "America/New_York"
+
+[paths]
+data_dir = "data"
+strategies_dir = "strategies"
+runs_dir = "runs"
+
+[reporting]
+plot_theme = "plotly_dark"
+save_html = true
+
+[risk]
+max_position_pct = 0.1
+max_open_positions = 5
+
+[optionsdx]
+input_dir = "zRawData/optionsdx"
+output_dir = "data/optionsdx/normalized"
+reports_dir = "data/optionsdx/reports"
