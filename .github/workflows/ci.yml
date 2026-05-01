@@ -1,3 +1,4 @@
+# CI policy: pytest only (no OptionsDX normalization / rate gates on GitHub runners).
 name: CI
 
 on:
